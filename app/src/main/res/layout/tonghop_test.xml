@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="@string/tittle_hoadon"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView android:text="@string/name_custom" />
+
+            <EditText
+                android:id="@+id/editNameCustom"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/soluongkhach" />
+
+            <EditText
+                android:id="@+id/editSoLuongCustom"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/chkVIP"
+                android:layout_column="1"
+                android:text="@string/custom_vip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/thanhtien" />
+
+            <TextView android:background="@color/yellow"
+                android:textSize="15sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="25px"
+        >
+
+        <Button
+            android:id="@+id/btnTinhTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tinhtt"
+            android:layout_weight="1"
+           />
+
+        <Button
+            android:id="@+id/btnTiep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiep"
+            android:layout_weight="1"
+           />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnThongKe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thongke"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="@string/infor_thongke"
+        android:textSize="18sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView android:text="@string/tongkh" />
+
+            <EditText android:hint="vd: 3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/tongKHVIP" />
+
+            <EditText android:hint="vd: 1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/tongdthu" />
+
+            <EditText android:hint="vd: 34324" />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="45px"
+        android:background="@color/blu"></View>
+
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/ibtn_Exit"
+       android:src="@drawable/exit"
+       android:layout_gravity="right"
+       android:layout_marginRight="10px"
+       android:layout_marginTop="15px"
+       />
+</LinearLayout>

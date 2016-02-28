@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablelayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <!--TableRow have 2 col tview -->
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:text="Column 1" />
+
+        <Button android:text="column2" />
+    </TableRow>
+    <!--have 1 editt span 2 -->
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_span="2"
+            android:text="Colum 1 va 2" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"></View>
+    <!--have 3 tview 3col-->
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView android:text="Column 1" />
+
+        <Button android:text="Column2" />
+
+        <Button android:text="Column 3" />
+
+    </TableRow>
+    <!--1col layout_column = 2-->
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_column="2"
+            android:text="Column3" />
+    </TableRow>
+
+    <!--1 tview layout_column =1 -->
+    <TableRow
+        android:id="@+id/row5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_column="1"
+            android:text="Column2" />
+    </TableRow>
+
+</TableLayout>

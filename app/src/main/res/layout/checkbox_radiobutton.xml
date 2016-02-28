@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="1"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:background="@color/xanhtron"
+                android:text="@string/tittle_app"
+                android:textColor="@color/yellow"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_span="2"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:inputType="number"
+                android:text="@string/cmnd" />
+
+            <EditText
+                android:id="@+id/editCMND"
+                android:layout_span="2"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blu"
+            android:gravity="center">
+
+            <TextView
+                android:text="@string/bangcap"
+                android:textColor="@color/yellow"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioGroup android:id="@+id/rgBangCap">
+
+                <RadioButton
+                    android:id="@+id/rbTrungCap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bc_trungcap" />
+
+                <RadioButton
+                    android:id="@+id/rbCaoDang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bc_caodang" />
+
+                <RadioButton
+                    android:id="@+id/rbDaiHoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/bc_daihoc" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blu"
+            android:gravity="center">
+
+            <TextView
+                android:text="@string/sothich"
+                android:textColor="@color/yellow"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/chkDocBao"
+                android:checked="true"
+                android:text="@string/st_docbao" />
+
+            <CheckBox
+                android:id="@+id/chkDocSach"
+                android:text="@string/st_docsach" />
+
+            <CheckBox
+                android:id="@+id/chkDocCode"
+                android:checked="true"
+                android:text="@string/st_doccoding" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blu"
+            android:gravity="center">
+
+            <TextView
+                android:text="@string/addition"
+                android:textColor="@color/yellow"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editInforBoSung"
+                android:layout_span="3"
+                android:lines="5"
+                android:padding="25px"
+                android:text="@string/bangcap"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnGui"
+                android:layout_column="1"
+                android:text="@string/btn_submit"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

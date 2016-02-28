@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#000000"
+    >
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/anh_1"
+        />
+    <TextView
+        android:id="@+id/tv_title_comic"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="This is title comic"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/image_view"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/tv_rating_comic"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="This is rating comic"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/image_view"
+        ></View>
+
+</RelativeLayout>

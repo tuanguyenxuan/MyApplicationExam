@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Top 10 comic</string>
+    <string-array name="name_title_comic">
+        <item>Co nan</item>
+        <item>Songoku</item>
+        <item>Tinh Teu Tim Den</item>
+        <item>Tru Tien</item>
+        <item>Bach Long </item>
+        <item>Pham Nhan Tu Tien</item>
+        <item>De quan</item>
+        <item>Mong tu tien</item>
+        <item>Giac mo hiep si</item>
+        <item>Ban Long</item>
+
+    </string-array>
+    <string-array name="comic_rating">
+        <item>9/10</item>
+        <item>7/10</item>
+        <item>9/10</item>
+        <item>7/10</item>
+        <item>9/10</item>
+        <item>7/10</item>
+        <item>9/10</item>
+        <item>7/10</item>
+        <item>9/10</item>
+        <item>7/10</item>
+
+    </string-array>
+    <string name="chk_iphone">IPhone</string>
+    <string name="chk_android">Android</string>
+    <string name="chk_windowsmobile">Windows Mobile</string>
+    <string name="btn_display">Dispaly</string>
+
+    <!--Example checkbox and radiobutton-->
+    <string name="tittle_app">Thong tin ca nhan</string>
+    <string name="name">Ho ten:</string>
+    <string name="cmnd">CMND</string>
+    <string name="bangcap">Bang cap</string>
+    <string name="bc_trungcap">Trung cap</string>
+    <string name="bc_caodang">Cao dang</string>
+    <string name="bc_daihoc">Dai hoc</string>
+    <string name="sothich">So thich</string>
+    <string name="st_docbao">Doc bao</string>
+    <string name="st_docsach">Doc sach</string>
+    <string name="st_doccoding">Doc coding</string>
+    <string name="addition">Thong tin bo sung</string>
+    <string name="btn_submit">Gui thong tin</string>
+    <!-- tong hop test-->
+    <string name="tittle_hoadon">Thong tin hoa don:</string>
+    <string name="name_custom">Ten Khach Hang</string>
+    <string name="soluongkhach">So luong khach</string>
+    <string name="custom_vip">Khach hang la VIP</string>
+    <string name="thanhtien">Thanh tien:</string>
+    <string name="tinhtt">Tinh TT</string>
+    <string name="tiep">Tiep</string>
+    <string name="thongke">Thong ke</string>
+    <string name="infor_thongke">Thong tin thong ke</string>
+    <string name="tongkh">Tong so KH:</string>
+    <string name="tongKHVIP">Tong so KH la VIP: </string>
+    <string name="tongdthu">Tong doanh thu:</string>
+
+</resources>
